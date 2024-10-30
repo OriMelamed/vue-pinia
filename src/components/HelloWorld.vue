@@ -8,6 +8,7 @@ const count = ref(0)
 
 <template>
   <h1>Ori</h1>
+  <h2>Test title</h2>
 </template>
 
 <style scoped>
