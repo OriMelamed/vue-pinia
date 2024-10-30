@@ -9,11 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
     "@types/faker": "^6.6.8",
+    "@vue/cli": "^5.0.8",
     "faker": "^6.6.6",
     "pinia": "^2.2.5",
     "uuid": "^11.0.2",
-    "vue": "^3.5.12"
+    "vue": "^3.5.12",
+    "vuetify": "^3.7.3"
   },
   "devDependencies": {
     "@types/uuid": "^10.0.0",
