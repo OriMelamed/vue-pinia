@@ -43,6 +43,10 @@ const deleteStudent = (studentId: string) => {
 </script>
 
 <template>
+    <v-card>
+        <v-card-title class="text-h4 font-weight-bold">Students</v-card-title>
+        <v-divider></v-divider>
+    </v-card>
     <v-container class="ma-5">
         <v-card v-for="student in students" :key="student.id" class="mb-4">
             <v-card-title class="text-h5 font-weight-bold">{{ student.name }}</v-card-title>
