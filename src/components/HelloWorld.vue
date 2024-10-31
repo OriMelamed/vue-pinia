@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import NameTable from './NameTable.vue';
+import FooterBanner from './FooterBanner.vue';
 </script>
 
 <template>

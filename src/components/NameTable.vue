@@ -20,16 +20,17 @@ const students = ref<Student[]>([
         subjects: ['Math', 'Science', 'History', 'English'],
         contact: '123-456-7890',
         address: '123 Elm St, Springfield, USA',
-    },
-    {
-        id: '12346',
-        name: 'Jane Doe',
-        age: 15,
-        grade: '9th Grade',
-        subjects: ['Math', 'Science', 'History', 'English'],
-        contact: '123-456-7890',
-        address: '123 Elm St, Springfield, USA',
     }
+    // ,
+    // {
+    //     id: '12346',
+    //     name: 'Jane Doe',
+    //     age: 15,
+    //     grade: '9th Grade',
+    //     subjects: ['Math', 'Science', 'History', 'English'],
+    //     contact: '123-456-7890',
+    //     address: '123 Elm St, Springfield, USA',
+    // }
 ]);
 
 const editStudent = (studentId: string) => {
